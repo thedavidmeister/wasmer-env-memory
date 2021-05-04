@@ -1,0 +1,11 @@
+[package]
+name = "wasmer-env-memory"
+version = "0.0.1"
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+wasmer = "=1.0.2"
+wasmer-compiler-singlepass = "=1.0.2"

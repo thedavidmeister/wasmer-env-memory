@@ -1,0 +1,13 @@
+[package]
+name = "wasm"
+version = "0.0.1"
+authors = [ "thedavidmeister", "thedavidmeister@gmail.com" ]
+edition = "2018"
+
+[lib]
+name = "wasm"
+crate-type = [ "cdylib", "rlib" ]
+path = "lib.rs"
+
+[dependencies]
+other = { path = "../other" }
