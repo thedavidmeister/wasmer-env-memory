@@ -13,6 +13,6 @@ fn dispatch(
 
 #[no_mangle]
 pub extern "C" fn read_memory() {
-    let _: u32 = dispatch(__read_memory, 1);
     let _: u32 = other_dispatch(__read_memory, 2);
+    let _: u32 = dispatch(__read_memory, 1);
 }
