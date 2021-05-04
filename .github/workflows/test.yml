@@ -11,6 +11,7 @@ jobs:
       - name: Install latest stable
         uses: actions-rs/toolchain@v1
         with:
+            toolchain: stable
             target: wasm32-unknown-unknown
 
       # `cargo check` command here will use installed `nightly`
